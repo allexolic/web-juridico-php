@@ -4,7 +4,7 @@ class DbConfig
 	private $_host = 'localhost';
 	private $_username = $_SERVER["DATABASE_USER"];
 	private $_password = $_SERVER["DATABASE_PASSWORD"];
-	private $_database = $_SERVER["DATABASE_NAME'];
+	private $_database = $_SERVER["DATABASE_NAME"];
 	
 	protected $connection;
 	
