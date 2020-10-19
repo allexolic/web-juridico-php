@@ -1,0 +1,5 @@
+tests/
+assests/
+custom/
+.env
+vendor/

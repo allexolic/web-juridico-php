@@ -1,0 +1,29 @@
+install php windows
+
+1-download latest version http://php.net/downloads.php 
+* for development use Non thread Safe(NTS)
+
+2-install Microsoft Visual C++ VC11 or VC14 or V15
+
+3-rename php.ini-development to php.ini
+
+4-Add sistem variable 
+control painel/ sistem variables / 
+in sistem variable select PATH / edit
+put the path where php were extracted 
+example: c:\php
+
+5-configure host file
+C:\Windows\System32\drivers\etc
+
+add 
+127.0.0.1       localhost
+
+6-On terminal 
+digit -> php --version
+
+after
+go to main project php
+cd c/project/php_project/
+
+php -S localhost:8080
